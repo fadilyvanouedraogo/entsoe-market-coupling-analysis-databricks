@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 1235" width="1260" height="1235" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#111"/></marker></defs>
+<rect width="1260" height="1235" fill="#FFFFFF"/>
+<text x="30" y="40" font-size="20" font-weight="bold" fill="#111">D2 · Market coupling — relational schema</text>
+<text x="30" y="64" font-size="12.5" fill="#444">Silver sources (left) · Gold star schema in energy.d2_gold: 4 fact tables, 5 dimensions</text>
+<text x="30" y="84" font-size="12" fill="#444"><tspan font-weight="bold">bold underlined</tspan> = key (grain)   <tspan font-style="italic" fill="#1F3FBF">italic blue</tspan> = foreign key (NOT ENFORCED, Unity Catalog)</text>
+<path d="M590 184.5 C740 184.5 810 146.8 958 146.8" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 201.5 C740 201.5 810 412.8 958 412.8" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 167.5 C740 167.5 810 542.8 958 542.8" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 535.5 C740 535.5 810 149.2 958 149.2" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 552.5 C740 552.5 810 415.2 958 415.2" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 665.5 C740 665.5 810 151.8 958 151.8" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 682.5 C740 682.5 810 417.8 958 417.8" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 648.5 C740 648.5 810 706.8 958 706.8" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 1050.5 C740 1050.5 810 154.2 958 154.2" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 1067.5 C740 1067.5 810 420.2 958 420.2" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 1033.5 C740 1033.5 810 904.8 958 904.8" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<rect x="33" y="113" width="250" height="104" fill="#9A9A9A"/>
+<rect x="30" y="110" width="250" height="104" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="30" y1="136" x2="280" y2="136" stroke="#222" stroke-width="1.2"/>
+<text x="155.0" y="128" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">silver_prices_hourly</text>
+<text x="38" y="154.5" font-size="12" font-weight="bold" fill="#111">zone_code</text>
+<line x1="38" y1="156.5" x2="104.6" y2="156.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="171.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="38" y1="173.5" x2="82.4" y2="173.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="188.5" font-size="12" fill="#111">price_eur_mwh</text>
+<text x="38" y="205.5" font-size="12" fill="#111">n_points</text>
+<rect x="33" y="243" width="250" height="104" fill="#9A9A9A"/>
+<rect x="30" y="240" width="250" height="104" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="30" y1="266" x2="280" y2="266" stroke="#222" stroke-width="1.2"/>
+<text x="155.0" y="258" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">silver_net_position_hourly</text>
+<text x="38" y="284.5" font-size="12" font-weight="bold" fill="#111">zone_code</text>
+<line x1="38" y1="286.5" x2="104.6" y2="286.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="301.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="38" y1="303.5" x2="82.4" y2="303.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="318.5" font-size="12" fill="#111">net_position_mwh</text>
+<text x="38" y="335.5" font-size="12" fill="#111">n_points</text>
+<rect x="33" y="373" width="250" height="121" fill="#9A9A9A"/>
+<rect x="30" y="370" width="250" height="121" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="30" y1="396" x2="280" y2="396" stroke="#222" stroke-width="1.2"/>
+<text x="155.0" y="388" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">silver_flows_hourly</text>
+<text x="38" y="414.5" font-size="12" font-weight="bold" fill="#111">from_zone</text>
+<line x1="38" y1="416.5" x2="104.6" y2="416.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="431.5" font-size="12" font-weight="bold" fill="#111">to_zone</text>
+<line x1="38" y1="433.5" x2="89.8" y2="433.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="448.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="38" y1="450.5" x2="82.4" y2="450.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="465.5" font-size="12" fill="#111">flow_mwh</text>
+<text x="38" y="482.5" font-size="12" fill="#111">n_points</text>
+<rect x="33" y="520" width="250" height="121" fill="#9A9A9A"/>
+<rect x="30" y="517" width="250" height="121" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="30" y1="543" x2="280" y2="543" stroke="#222" stroke-width="1.2"/>
+<text x="155.0" y="535" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">silver_scheduled_hourly</text>
+<text x="38" y="561.5" font-size="12" font-weight="bold" fill="#111">from_zone</text>
+<line x1="38" y1="563.5" x2="104.6" y2="563.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="578.5" font-size="12" font-weight="bold" fill="#111">to_zone</text>
+<line x1="38" y1="580.5" x2="89.8" y2="580.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="595.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="38" y1="597.5" x2="82.4" y2="597.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="612.5" font-size="12" fill="#111">sched_mwh</text>
+<text x="38" y="629.5" font-size="12" fill="#111">n_points</text>
+<rect x="343" y="113" width="250" height="172" fill="#9A9A9A"/>
+<rect x="340" y="110" width="250" height="172" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="340" y1="136" x2="590" y2="136" stroke="#222" stroke-width="1.2"/>
+<text x="465.0" y="128" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">fact_price_hourly</text>
+<text x="348" y="154.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="348" y1="156.5" x2="392.4" y2="156.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="171.5" font-size="12" font-weight="bold" font-style="italic" fill="#1F3FBF">zone_code</text>
+<line x1="348" y1="173.5" x2="416.4" y2="173.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="188.5" font-size="12" font-style="italic" fill="#1F3FBF">date_key</text>
+<text x="348" y="205.5" font-size="12" font-style="italic" fill="#1F3FBF">hour_key</text>
+<text x="348" y="222.5" font-size="12" fill="#111">datetime_local</text>
+<text x="348" y="239.5" font-size="12" fill="#111">price_eur_mwh</text>
+<text x="348" y="256.5" font-size="12" fill="#111">net_position_mwh</text>
+<text x="348" y="273.5" font-size="12" fill="#111">is_negative_price</text>
+<rect x="343" y="311" width="250" height="257" fill="#9A9A9A"/>
+<rect x="340" y="308" width="250" height="257" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="340" y1="334" x2="590" y2="334" stroke="#222" stroke-width="1.2"/>
+<text x="465.0" y="326" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">fact_region_hourly</text>
+<text x="348" y="352.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="348" y1="354.5" x2="392.4" y2="354.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="369.5" font-size="12" font-weight="bold" fill="#111">region_code</text>
+<line x1="348" y1="371.5" x2="429.4" y2="371.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="386.5" font-size="12" fill="#111">price_min_eur_mwh</text>
+<text x="348" y="403.5" font-size="12" fill="#111">price_max_eur_mwh</text>
+<text x="348" y="420.5" font-size="12" fill="#111">max_spread_eur_mwh</text>
+<text x="348" y="437.5" font-size="12" fill="#111">n_price_groups</text>
+<text x="348" y="454.5" font-size="12" fill="#111">is_full_convergence</text>
+<text x="348" y="471.5" font-size="12" fill="#111">be_price_eur_mwh</text>
+<text x="348" y="488.5" font-size="12" fill="#111">be_is_highest</text>
+<text x="348" y="505.5" font-size="12" fill="#111">be_is_lowest</text>
+<text x="348" y="522.5" font-size="12" fill="#111">datetime_local</text>
+<text x="348" y="539.5" font-size="12" font-style="italic" fill="#1F3FBF">date_key</text>
+<text x="348" y="556.5" font-size="12" font-style="italic" fill="#1F3FBF">hour_key</text>
+<rect x="343" y="594" width="250" height="359" fill="#9A9A9A"/>
+<rect x="340" y="591" width="250" height="359" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="340" y1="617" x2="590" y2="617" stroke="#222" stroke-width="1.2"/>
+<text x="465.0" y="609" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">fact_border_hourly</text>
+<text x="348" y="635.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="348" y1="637.5" x2="392.4" y2="637.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="652.5" font-size="12" font-weight="bold" font-style="italic" fill="#1F3FBF">border_key</text>
+<line x1="348" y1="654.5" x2="424.0" y2="654.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="669.5" font-size="12" font-style="italic" fill="#1F3FBF">date_key</text>
+<text x="348" y="686.5" font-size="12" font-style="italic" fill="#1F3FBF">hour_key</text>
+<text x="348" y="703.5" font-size="12" fill="#111">datetime_local</text>
+<text x="348" y="720.5" font-size="12" fill="#111">price_a_eur_mwh</text>
+<text x="348" y="737.5" font-size="12" fill="#111">price_b_eur_mwh</text>
+<text x="348" y="754.5" font-size="12" fill="#111">spread_a_b_eur_mwh</text>
+<text x="348" y="771.5" font-size="12" fill="#111">abs_spread_eur_mwh</text>
+<text x="348" y="788.5" font-size="12" fill="#111">is_converged</text>
+<text x="348" y="805.5" font-size="12" fill="#111">is_congested</text>
+<text x="348" y="822.5" font-size="12" fill="#111">flow_a_to_b_mwh</text>
+<text x="348" y="839.5" font-size="12" fill="#111">flow_b_to_a_mwh</text>
+<text x="348" y="856.5" font-size="12" fill="#111">net_flow_a_to_b_mwh</text>
+<text x="348" y="873.5" font-size="12" fill="#111">sched_a_to_b_mwh</text>
+<text x="348" y="890.5" font-size="12" fill="#111">sched_b_to_a_mwh</text>
+<text x="348" y="907.5" font-size="12" fill="#111">net_sched_a_to_b_mwh</text>
+<text x="348" y="924.5" font-size="12" fill="#111">congestion_rent_eur</text>
+<text x="348" y="941.5" font-size="12" fill="#111">is_adverse_flow</text>
+<rect x="343" y="979" width="250" height="223" fill="#9A9A9A"/>
+<rect x="340" y="976" width="250" height="223" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="340" y1="1002" x2="590" y2="1002" stroke="#222" stroke-width="1.2"/>
+<text x="465.0" y="994" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">fact_route_flow_hourly</text>
+<text x="348" y="1020.5" font-size="12" font-weight="bold" fill="#111">ts_utc</text>
+<line x1="348" y1="1022.5" x2="392.4" y2="1022.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="1037.5" font-size="12" font-weight="bold" font-style="italic" fill="#1F3FBF">route_key</text>
+<line x1="348" y1="1039.5" x2="416.4" y2="1039.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="1054.5" font-size="12" font-style="italic" fill="#1F3FBF">date_key</text>
+<text x="348" y="1071.5" font-size="12" font-style="italic" fill="#1F3FBF">hour_key</text>
+<text x="348" y="1088.5" font-size="12" fill="#111">datetime_local</text>
+<text x="348" y="1105.5" font-size="12" fill="#111">flow_mwh</text>
+<text x="348" y="1122.5" font-size="12" fill="#111">reverse_flow_mwh</text>
+<text x="348" y="1139.5" font-size="12" fill="#111">net_flow_mwh</text>
+<text x="348" y="1156.5" font-size="12" fill="#111">sched_mwh</text>
+<text x="348" y="1173.5" font-size="12" fill="#111">reverse_sched_mwh</text>
+<text x="348" y="1190.5" font-size="12" fill="#111">net_sched_mwh</text>
+<rect x="963" y="113" width="250" height="240" fill="#9A9A9A"/>
+<rect x="960" y="110" width="250" height="240" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="136" x2="1210" y2="136" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="128" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_date</text>
+<text x="968" y="154.5" font-size="12" font-weight="bold" fill="#111">date_key</text>
+<line x1="968" y1="156.5" x2="1027.2" y2="156.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="171.5" font-size="12" fill="#111">date</text>
+<text x="968" y="188.5" font-size="12" fill="#111">year</text>
+<text x="968" y="205.5" font-size="12" fill="#111">quarter_label</text>
+<text x="968" y="222.5" font-size="12" fill="#111">month_num</text>
+<text x="968" y="239.5" font-size="12" fill="#111">month_label</text>
+<text x="968" y="256.5" font-size="12" fill="#111">year_month</text>
+<text x="968" y="273.5" font-size="12" fill="#111">iso_week</text>
+<text x="968" y="290.5" font-size="12" fill="#111">day_of_week_num</text>
+<text x="968" y="307.5" font-size="12" fill="#111">day_label</text>
+<text x="968" y="324.5" font-size="12" fill="#111">is_weekend</text>
+<text x="968" y="341.5" font-size="12" fill="#111">season_label</text>
+<rect x="963" y="379" width="250" height="104" fill="#9A9A9A"/>
+<rect x="960" y="376" width="250" height="104" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="402" x2="1210" y2="402" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="394" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_hour</text>
+<text x="968" y="420.5" font-size="12" font-weight="bold" fill="#111">hour_key</text>
+<line x1="968" y1="422.5" x2="1027.2" y2="422.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="437.5" font-size="12" fill="#111">hour_label</text>
+<text x="968" y="454.5" font-size="12" fill="#111">day_period</text>
+<text x="968" y="471.5" font-size="12" fill="#111">is_peak</text>
+<rect x="963" y="509" width="250" height="138" fill="#9A9A9A"/>
+<rect x="960" y="506" width="250" height="138" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="532" x2="1210" y2="532" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="524" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_zone</text>
+<text x="968" y="550.5" font-size="12" font-weight="bold" fill="#111">zone_code</text>
+<line x1="968" y1="552.5" x2="1034.6" y2="552.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="567.5" font-size="12" fill="#111">zone_label</text>
+<text x="968" y="584.5" font-size="12" fill="#111">country</text>
+<text x="968" y="601.5" font-size="12" fill="#111">latitude</text>
+<text x="968" y="618.5" font-size="12" fill="#111">longitude</text>
+<text x="968" y="635.5" font-size="12" fill="#111">is_cwe</text>
+<rect x="963" y="673" width="250" height="172" fill="#9A9A9A"/>
+<rect x="960" y="670" width="250" height="172" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="696" x2="1210" y2="696" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="688" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_border</text>
+<text x="968" y="714.5" font-size="12" font-weight="bold" fill="#111">border_key</text>
+<line x1="968" y1="716.5" x2="1042.0" y2="716.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="731.5" font-size="12" fill="#111">border_label</text>
+<text x="968" y="748.5" font-size="12" fill="#111">zone_a</text>
+<text x="968" y="765.5" font-size="12" fill="#111">zone_b</text>
+<text x="968" y="782.5" font-size="12" fill="#111">zone_a_label</text>
+<text x="968" y="799.5" font-size="12" fill="#111">zone_b_label</text>
+<text x="968" y="816.5" font-size="12" fill="#111">involves_be</text>
+<text x="968" y="833.5" font-size="12" fill="#111">is_cwe_internal</text>
+<rect x="963" y="871" width="250" height="240" fill="#9A9A9A"/>
+<rect x="960" y="868" width="250" height="240" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="894" x2="1210" y2="894" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="886" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_route</text>
+<text x="968" y="912.5" font-size="12" font-weight="bold" fill="#111">route_key</text>
+<line x1="968" y1="914.5" x2="1034.6" y2="914.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="929.5" font-size="12" fill="#111">route_label</text>
+<text x="968" y="946.5" font-size="12" fill="#111">border_key</text>
+<text x="968" y="963.5" font-size="12" fill="#111">from_zone</text>
+<text x="968" y="980.5" font-size="12" fill="#111">to_zone</text>
+<text x="968" y="997.5" font-size="12" fill="#111">from_label</text>
+<text x="968" y="1014.5" font-size="12" fill="#111">to_label</text>
+<text x="968" y="1031.5" font-size="12" fill="#111">from_lat</text>
+<text x="968" y="1048.5" font-size="12" fill="#111">from_lon</text>
+<text x="968" y="1065.5" font-size="12" fill="#111">to_lat</text>
+<text x="968" y="1082.5" font-size="12" fill="#111">to_lon</text>
+<text x="968" y="1099.5" font-size="12" fill="#111">involves_be</text>
+</svg>
