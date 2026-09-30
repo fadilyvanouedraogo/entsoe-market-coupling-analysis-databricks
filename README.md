@@ -51,7 +51,7 @@ Bidding zones: BE, FR, NL, DE-LU, AT, CH, CZ, PL, DK1, ES — 16 borders.
 
 ### 3.2 Star schema
 
-![D2 relational schema](images/d2_relational_schema.png)
+![D2 relational schema](d2_relational_schema.png)
 
 * **Dimensions:** `dim_date`, `dim_hour` (Brussels local time), `dim_zone`, `dim_border` (one row per border A-B),
   `dim_route` (each border in both directions, with coordinates, for the flow map).
