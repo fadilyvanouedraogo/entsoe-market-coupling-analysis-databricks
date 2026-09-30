@@ -94,7 +94,7 @@ R_{AB} = \left| p_A - p_B \right| \times \left| S_{A \to B} \right|
 * **Adverse flow** — during a congested hour, the net physical flow goes from the expensive zone to the cheap one:
 
 ```math
-\operatorname{sign}(p_A - p_B) \times F_{A \to B} > 0
+\mathrm{sign}(p_A - p_B) \times F_{A \to B} > 0
 ```
 
 * **Net position:** positive = net exporter, negative = net importer.
